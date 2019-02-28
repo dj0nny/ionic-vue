@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <Header />
+    <Header/>
   </div>
 </template>
 
 <script>
-import Header from '@/components/Header.vue'
+import Header from "@/components/Header.vue";
 
 export default {
   components: {
@@ -15,6 +15,10 @@ export default {
 </script>
 
 <style lang="scss">
+h1 {
+  margin: 0;
+}
+
 #app {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
